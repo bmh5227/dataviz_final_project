@@ -16,25 +16,25 @@ The following tasks and questions will drive the visualization and interaction d
 ## Sketches
 This is the intial set of sketch ideas:
 
-[![image](https://github.com/bmh5227/dataviz_final_project/blob/master/general_sketch_ideas.jpg)]
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/general_sketch_ideas.jpg)
 
 Based on this set of ideas I like the idea of vizually showing the earth and highlighting the countries that produce the most emissions. After some peer feed back I created this second iteration of the sketch:
 
-[![image](https://github.com/bmh5227/dataviz_final_project/blob/master/world_map_sketch.jpg)]
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/world_map_sketch.jpg)
 
 ## Prototypes
 
 The first proof of concept I created was a scatter plot showing CO2 emission over time for each country:
 ```
-[![image](https://github.com/bmh5227/dataviz_final_project/blob/master/scatter_plot_example.png)]
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/scatter_plot_example.png)
 (https://vizhub.com/bmh5227/db1ba255a79b47948c71c1639139ae50)
 ```
 
 I found it difficult to get a sense of what each individual company was up to except for the top few. This is why I decide to go with a more geospacial approach. From there I created my first prototype, where you can see the emission for each country based on the year:
-```
-[![image](https://github.com/bmh5227/dataviz_final_project/blob/master/proto_type_screen_shot.png)]
+
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/proto_type_screen_shot.png)
 (https://vizhub.com/bmh5227/4b563c7d607847db8a2062bb7a89fdb5)
-```
+
 This is the data source:
 (https://github.com/owid/co2-data?tab=readme-ov-file)
 
