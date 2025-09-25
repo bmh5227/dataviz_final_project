@@ -16,42 +16,31 @@ The following tasks and questions will drive the visualization and interaction d
 ## Sketches
 This is the intial set of sketch ideas:
 
-IMAGe
+[![image](https://github.com/bmh5227/dataviz_final_project/blob/master/general_sketch_ideas.jpg)]
 
 Based on this set of ideas I like the idea of vizually showing the earth and highlighting the countries that produce the most emissions. After some peer feed back I created this second iteration of the sketch:
 
-IMAGE
+[![image](https://github.com/bmh5227/dataviz_final_project/blob/master/world_map_sketch.jpg)]
 
 ## Prototypes
 
 The first proof of concept I created was a scatter plot showing CO2 emission over time for each country:
-
-IMAGE
-[![image]()]
+```
+[![image](https://github.com/bmh5227/dataviz_final_project/blob/master/scatter_plot_example.png)]
 (https://vizhub.com/bmh5227/db1ba255a79b47948c71c1639139ae50)
+```
 
 I found it difficult to get a sense of what each individual company was up to except for the top few. This is why I decide to go with a more geospacial approach. From there I created my first prototype, where you can see the emission for each country based on the year:
-
-IMAGE
-
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can put images into here by pasting them into issues.
-
-You can make images into links like this:
-
 ```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+[![image](https://github.com/bmh5227/dataviz_final_project/blob/master/proto_type_screen_shot.png)]
+(https://vizhub.com/bmh5227/4b563c7d607847db8a2062bb7a89fdb5)
 ```
-
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
+This is the data source:
+(https://github.com/owid/co2-data?tab=readme-ov-file)
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+The biggest concern I have is if I will be able to display enough information, so that the end user will be able to derive more information than just "This country produces a lot of CO2". This will be the importance of the tool tip.
 
 ## Milestones
 - Add a slider bar to adjust the year from the window, rather than in the code
