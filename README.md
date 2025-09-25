@@ -25,10 +25,9 @@ Based on this set of ideas I like the idea of vizually showing the earth and hig
 ## Prototypes
 
 The first proof of concept I created was a scatter plot showing CO2 emission over time for each country:
-```
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/scatter_plot_example.png)
 (https://vizhub.com/bmh5227/db1ba255a79b47948c71c1639139ae50)
-```
+
 
 I found it difficult to get a sense of what each individual company was up to except for the top few. This is why I decide to go with a more geospacial approach. From there I created my first prototype, where you can see the emission for each country based on the year:
 
