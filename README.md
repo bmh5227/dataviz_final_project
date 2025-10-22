@@ -38,7 +38,7 @@ This is the data source:
 (https://github.com/owid/co2-data?tab=readme-ov-file)
 
 ## Project History
-# Version 1
+### Version 1
 Using the ideas I created while prototyping I decided to go with the map representation. This is the first iteration of that idea:
 (image goes here)
 (https://vizhub.com/bmh5227/e52a7a28e4fc44d3a1842aa64ed5f4dd)
@@ -47,9 +47,25 @@ Changes:
 - Switched to a different dataset
 - Added a slider to change the year being displayed
 
-# Version 2
+### Version 2
 
-# Version 3
+(image goes here)
+(https://vizhub.com/bmh5227/f1c2ea9d9b074138bd66e1169080c5bd)
+
+Changes:
+- Added a key
+- Added a year label
+- Some minor formatting changes based on peer feedback
+
+### Version 3
+
+(image goes here)
+(https://vizhub.com/bmh5227/4ee49c2f77094e8ca7cbe31f81377f02)
+
+Changes:
+- Added mousing over of countries
+- Key now updates to match the country being moused over
+- Again some minor formatting changes addressing peer feedback
 
 ## Open Questions
 
