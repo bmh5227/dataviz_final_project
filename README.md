@@ -37,6 +37,20 @@ I found it difficult to get a sense of what each individual company was up to ex
 This is the data source:
 (https://github.com/owid/co2-data?tab=readme-ov-file)
 
+## Project History
+# Version 1
+Using the ideas I created while prototyping I decided to go with the map representation. This is the first iteration of that idea:
+(image goes here)
+(https://vizhub.com/bmh5227/e52a7a28e4fc44d3a1842aa64ed5f4dd)
+Changes:
+- Refactored the initial map prototype to use the TopoJson and build in map utilities within d3.
+- Switched to a different dataset
+- Added a slider to change the year being displayed
+
+# Version 2
+
+# Version 3
+
 ## Open Questions
 
 The biggest concern I have is if I will be able to display enough information, so that the end user will be able to derive more information than just "This country produces a lot of CO2". This will be the importance of the tool tip.
