@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is historical CO2 Emissions in tons for each country on a per year basis. Depending on how the vizualization of the data goes, I might add additional information like population or gdp, so show the correlation of emissions with other attributes. Ex: emissions per capita for each coutry on a given year.
+The data I propose to visualize for my project is historical CO2 Emissions in tons for each country on a per year basis. Depending on how the vizualization of the data goes, I might add additional information like population or gdp, to show the correlation of emissions with other attributes. Ex: emissions per capita for each coutry on a given year.
 
 
 ## Questions & Tasks
@@ -40,26 +40,28 @@ This is the data source:
 ## Project History
 ### Version 1
 Using the ideas I created while prototyping I decided to go with the map representation. This is the first iteration of that idea:
-(image goes here)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/map_v1.png)
 (https://vizhub.com/bmh5227/e52a7a28e4fc44d3a1842aa64ed5f4dd)
 Changes:
-- Refactored the initial map prototype to use the TopoJson and build in map utilities within d3.
+- Refactored the initial map prototype to use the TopoJson and the built in map utilities within d3.
 - Switched to a different dataset
 - Added a slider to change the year being displayed
+- Switched to a Green -> Red color scale
 
 ### Version 2
 
-(image goes here)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/map_v2.png)
 (https://vizhub.com/bmh5227/f1c2ea9d9b074138bd66e1169080c5bd)
 
 Changes:
 - Added a key
 - Added a year label
 - Some minor formatting changes based on peer feedback
+- Map reacts to resizing of window
 
 ### Version 3
 
-(image goes here)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/map_v3.png)
 (https://vizhub.com/bmh5227/4ee49c2f77094e8ca7cbe31f81377f02)
 
 Changes:
