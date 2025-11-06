@@ -69,6 +69,15 @@ Changes:
 - Key now updates to match the country being moused over
 - Again some minor formatting changes addressing peer feedback
 
+### Version 4
+
+### Version 5
+(https://vizhub.com/bmh5227/4ee49c2f77094e8ca7cbe31f81377f02)
+- Redesigned the UI
+- Added tooltips for mousing over countries
+- Added tooltips for mousing over the key
+- Added Highlighting of countries when mousing over the key
+
 ## Open Questions
 
 The biggest concern I have is if I will be able to display enough information, so that the end user will be able to derive more information than just "This country produces a lot of CO2". This will be the importance of the tool tip.
