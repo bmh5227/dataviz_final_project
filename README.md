@@ -76,8 +76,8 @@ Changes:
 - Again some minor formatting changes addressing peer feedback
 
 ### Version 4
-(https://vizhub.com/bmh5227/4ee49c2f77094e8ca7cbe31f81377f02)
-
+(https://vizhub.com/bmh5227/4ee49c2f77094e8ca7cbe31f81377imf02)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v4.png)
 Changes:
 - Redesigned the UI
 - Added tooltips for mousing over countries
@@ -85,6 +85,7 @@ Changes:
 - Added Highlighting of countries when mousing over the key
 
 ### Version 5
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v5.png)
 (https://vizhub.com/bmh5227/c23ac12c2a09455a9c46fcb93c1e8518)
 
 Changes:
