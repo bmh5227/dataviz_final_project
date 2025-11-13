@@ -1,9 +1,15 @@
+
 # Data Visualization Project
+## Introduction
+In this data viz my goal is to let the user explore historical CO2 emissions on a per country basis. The user is also able to display other attributes, such as population and gdp. This allows you to ask questions in relation to other attributes and see the trends.
 
 ## Data
-
-The data I propose to visualize for my project is historical CO2 Emissions in tons for each country on a per year basis. Depending on how the vizualization of the data goes, I might add additional information like population or gdp, to show the correlation of emissions with other attributes. Ex: emissions per capita for each coutry on a given year.
-
+Source: https://github.com/owid/co2-data
+Numerous datapoints and attributes have been removed to create a more compact dataset.
+The remaining attributes are:
+- Emissions
+- Population
+- Gdp
 
 ## Questions & Tasks
 
@@ -29,7 +35,7 @@ The first proof of concept I created was a scatter plot showing CO2 emission ove
 (https://vizhub.com/bmh5227/db1ba255a79b47948c71c1639139ae50)
 
 
-I found it difficult to get a sense of what each individual company was up to except for the top few. This is why I decide to go with a more geospacial approach. From there I created my first prototype, where you can see the emission for each country based on the year:
+I found it difficult to get a sense of what each individual country was up to except for the top few. This is why I decide to go with a more geospacial approach. From there I created my first prototype, where you can see the emission for each country based on the year:
 
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/proto_type_screen_shot.png)
 (https://vizhub.com/bmh5227/4b563c7d607847db8a2062bb7a89fdb5)
@@ -70,20 +76,26 @@ Changes:
 - Again some minor formatting changes addressing peer feedback
 
 ### Version 4
-
-### Version 5
 (https://vizhub.com/bmh5227/4ee49c2f77094e8ca7cbe31f81377f02)
+
+Changes:
 - Redesigned the UI
 - Added tooltips for mousing over countries
 - Added tooltips for mousing over the key
 - Added Highlighting of countries when mousing over the key
+
+### Version 5
+(https://vizhub.com/bmh5227/c23ac12c2a09455a9c46fcb93c1e8518)
+
+Changes:
+- Added a label in the top right that can be clicked
+- Clicking this label will result in the data being displayed to switch to a different attribute
+- Added displaying of these ^ attributes
+
 
 ## Open Questions
 
 The biggest concern I have is if I will be able to display enough information, so that the end user will be able to derive more information than just "This country produces a lot of CO2". This will be the importance of the tool tip.
 
 ## Milestones
-- Add a slider bar to adjust the year from the window, rather than in the code
-- Needs to be refactored (the code is very messy at the moment)
-- Add a tool tip to show additional information when clicking/mousing over a country
-- Possibly add other data bases like population and gdp historical data to show the correlation between emissions and other attributes
+- Add to the tooltip, so that a line plot of historical data can be shown
