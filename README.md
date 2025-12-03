@@ -24,21 +24,21 @@ The following tasks and questions will drive the visualization and interaction d
 ## Sketches
 I sketches various ways in which I could possibly visualize this data set:
 
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/general_sketch_ideas.jpg)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/general_sketch_ideas.jpg)
 
 Based on this set of ideas, I like the idea of geographically showing emissions by highlighting the countries that produce the most. After some peer feed back, I created this second iteration of the sketch:
 
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/world_map_sketch.jpg)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/world_map_sketch.jpg)
 
 ## Prototypes
 
 The first proof of concept I created was a scatter plot showing CO2 emission over time for each country:
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/scatter_plot_example.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/scatter_plot_example.png)
 Viz: https://vizhub.com/bmh5227/db1ba255a79b47948c71c1639139ae50
 
 I found it difficult to get a sense of what each individual country was up to except for the top few. This is why I decide to go with a more geospatial approach. From there I created my first prototype, where you can see the emission for each country based on the year:
 
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/proto_type_screen_shot.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/proto_type_screen_shot.png)
 Viz: https://vizhub.com/bmh5227/4b563c7d607847db8a2062bb7a89fdb5
 
 This is the data source:
@@ -47,7 +47,7 @@ https://github.com/owid/co2-data?tab=readme-ov-file
 ## Project History
 ### Version 1
 Using the ideas I created while prototyping I decided to go with the map representation. This is the first iteration of that idea:
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/map_v1.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/map_v1.png)
 Viz: https://vizhub.com/bmh5227/e52a7a28e4fc44d3a1842aa64ed5f4dd
 
 Changes:
@@ -57,7 +57,7 @@ Changes:
 - Switched to a Green -> Red color scale
 
 ### Version 2
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/map_v2.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/map_v2.png)
 Viz: https://vizhub.com/bmh5227/f1c2ea9d9b074138bd66e1169080c5bd
 
 Changes:
@@ -67,7 +67,7 @@ Changes:
 - Map reacts to resizing of window
 
 ### Version 3
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/map_v3.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/map_v3.png)
 Viz: https://vizhub.com/bmh5227/4ee49c2f77094e8ca7cbe31f81377f02
 
 Changes:
@@ -76,7 +76,7 @@ Changes:
 - Again some minor formatting changes addressing peer feedback
 
 ### Version 4
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v4.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v4.png)
 Viz: https://vizhub.com/bmh5227/4ee49c2f77094e8ca7cbe31f81377imf02
 
 Changes:
@@ -86,7 +86,7 @@ Changes:
 - Added Highlighting of countries when mousing over the key
 
 ### Version 5
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v5.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v5.png)
 Viz: https://vizhub.com/bmh5227/c23ac12c2a09455a9c46fcb93c1e8518
 
 Changes:
@@ -95,7 +95,7 @@ Changes:
 - Added displaying of these ^ attributes
 
 ### Version 6
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v6.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v6.png)
 Viz: https://vizhub.com/bmh5227/abe221f1c6d5495dbd05c3277238e1f5
 
 Changes:
@@ -105,9 +105,9 @@ Changes:
 
 ### Version 7 (Final Iteration)
 Here are a few of images of the ways you can interact with the viz:
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v7a.png)
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v7b.png)
-![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v7c.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v7a.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v7b.png)
+![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v7c.png)
 Viz: https://vizhub.com/bmh5227/b740004b868548bf9b8880ef7bf7113d)
 
 For this final iteration I focused on adding features that made the visualization feel the most polished and complete. 
