@@ -18,13 +18,14 @@ The following tasks and questions will drive the visualization and interaction d
  * How does the CO2 emissions vary over time?
  * Is there any correlation between emissions and population/gdp?
  * Do regions of world increase/decrease their emissions in unison, or is this a per country trend?
+ * Can you see correlations between real world events and changes in emissions
 
 ## Sketches
-This is the intial set of sketch ideas:
+I sketches various ways in which I could possibly visualize this data set:
 
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/general_sketch_ideas.jpg)
 
-Based on this set of ideas I like the idea of vizually showing the earth and highlighting the countries that produce the most emissions. After some peer feed back I created this second iteration of the sketch:
+Based on this set of ideas, I like the idea of geographically showing emissions by highlighting the countries that produce the most. After some peer feed back, I created this second iteration of the sketch:
 
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/world_map_sketch.jpg)
 
@@ -33,7 +34,6 @@ Based on this set of ideas I like the idea of vizually showing the earth and hig
 The first proof of concept I created was a scatter plot showing CO2 emission over time for each country:
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/scatter_plot_example.png)
 (https://vizhub.com/bmh5227/db1ba255a79b47948c71c1639139ae50)
-
 
 I found it difficult to get a sense of what each individual country was up to except for the top few. This is why I decide to go with a more geospacial approach. From there I created my first prototype, where you can see the emission for each country based on the year:
 
@@ -87,16 +87,29 @@ Changes:
 ### Version 5
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/dataviz_v5.png)
 (https://vizhub.com/bmh5227/c23ac12c2a09455a9c46fcb93c1e8518)
-
 Changes:
 - Added a label in the top right that can be clicked
 - Clicking this label will result in the data being displayed to switch to a different attribute
 - Added displaying of these ^ attributes
 
+### Version 6
 
-## Open Questions
+(https://vizhub.com/bmh5227/abe221f1c6d5495dbd05c3277238e1f5)
+Changes:
+- Addressed peer feedback by changing attribute colorings
+- Changed the naming of attributes in the new label that was created last iteration
+- Fixed other minor bugs found during peer review
 
-The biggest concern I have is if I will be able to display enough information, so that the end user will be able to derive more information than just "This country produces a lot of CO2". This will be the importance of the tool tip.
+### Version 7 (Final Iteration)
 
-## Milestones
-- Add to the tooltip, so that a line plot of historical data can be shown
+(https://vizhub.com/bmh5227/b740004b868548bf9b8880ef7bf7113d)
+For this final iteration I focused on adding features that made the visualization feel the most polished and complete. 
+
+Changes:
+- Added use of the scroll wheel to change the year
+- Added a line graph that will show all historical data for the country moused over
+- Scaling of max and mins to the year being displayed
+- Fixed varous bugs the made the viz clunky
+
+## Conclusion
+Overall, I was able to create a data vizualization that will let you address the initial question asked. You are able to look at historical CO2 emission on per country basis, as well as find correlations between emissions and other attributes like population and gdp. There is plenty of user interation and feed back, that I feel makes the viz inituitive and easy to come up with many of your own question. Beyond the data viz itself, I certainly learn a lot about not only vizual encoding techniques (what works well and what doesn't), but also JavaScript, NodeJS, and D3. 
