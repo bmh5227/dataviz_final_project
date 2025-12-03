@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.message {
+  font-size: 13em;
+  text-align: center;
+}
+
+.year-slider .tick text {
+  fill: black;
+  font-weight: bold;
+}
+
+.year-slider .track {
+  stroke: black;
+}
+
+.year-slider .handle {
+  fill: black;
+  stroke:;
+}
