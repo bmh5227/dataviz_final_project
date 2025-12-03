@@ -108,7 +108,7 @@ Here are a few of images of the ways you can interact with the viz:
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v7a.png)
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v7b.png)
 ![image](https://github.com/bmh5227/dataviz_final_project/blob/master/images/dataviz_v7c.png)
-Viz: https://vizhub.com/bmh5227/b740004b868548bf9b8880ef7bf7113d)
+Viz: https://vizhub.com/bmh5227/b740004b868548bf9b8880ef7bf7113d
 
 For this final iteration I focused on adding features that made the visualization feel the most polished and complete. 
 
